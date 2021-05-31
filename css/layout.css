@@ -1,2 +1,27 @@
 /* LAYOUT */
 /* ***** */
+
+.card{
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 30px;
+}
+
+/* ************* */
+/* MultiColumnas */
+/* ************* */
+main{
+    /* column-count: 5; */
+    column-width: 30vw;
+    column-gap: 50px;
+    text-align: justify;
+    /* column-rule: 2px solid red; */
+}
+img{
+    width: 100%;
+}
+
+h1{
+    column-fill: auto;
+}

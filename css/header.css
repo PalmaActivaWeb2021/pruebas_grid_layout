@@ -1,2 +1,32 @@
 /* HEADER */
 /* ***** */
+
+/* ********** */
+/* GRID LAYOUT */
+/* ********** */
+header{
+
+}
+
+ul{
+    border-top: 5px solid black;
+    padding: 0;
+    /* Crear un Grid */
+    display: grid;
+    grid-template-columns: auto 1fr 100px;
+    grid-template-rows: auto 200px 100px;
+}
+li{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 30px;
+    border-top: 2px solid blue;
+}
+
+/* Como mover los hijos de Grid */
+li:nth-child(1){
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
